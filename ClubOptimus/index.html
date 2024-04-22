@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Club Optimus</title>
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="./assets/css/style.css">
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner1.jpg">
+  <script src="https://kit.fontawesome.com/6bd6c771de.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <div class="circle"></div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header">
+
+    <!-- 
+      - overlay
+    -->
+    <div class="overlay" data-overlay></div>
+
+    <div class="container">
+
+      <a href="#" class="logo">          
+        <img src="./assets/images/logo.png" width="60" height="40" alt="Pfolio home">
+      </a>
+
+      <button class="nav-open-btn" data-nav-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-nav>
+
+        <div class="navbar-top">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.png" width="50" height="40" alt="Pfolio home">
+          </a>
+
+          <button class="nav-close-btn" data-nav-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#portfolio" class="navbar-link">Portfolios</a>
+          </li>
+
+          <li>
+            <a href="#events" class="navbar-link">Events</a>
+          </li>
+
+          <li>
+            <a href="#team" class="navbar-link">Team</a>
+          </li>
+
+          <li>
+            <a href="#blog-label" class="navbar-link">Blog</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+
+        <button class="search">
+          <i class='bx bx-moon change-theme' id="theme-button"></i>
+        </button>
+
+      </div>
+
+    </div>
+
+  </header>
+
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Club Optimus</h1>
+
+            <p class="hero-subtitle">
+              We're not playing with Legos anymore.
+            </p>
+
+            <div class="hero-banner">
+              <img src="./assets/images/hero-banner1.jpg" width="800" height="800" alt="Club Optimus" class="w-100">
+            </div>
+
+            <p class="section-text">
+              <b>Club Optimus</b>: Where your dreams become reality. 
+              We are a passionate group of robotics enthusiasts dedicated to pushing the boundaries of innovation. 
+              In Club Optimus, you'll learn how to code, design, and build robots,
+               transforming your ideas into tangible creations
+            </p>
+
+            <a href="https://forms.gle/uQBGGMmQ4RFeqhvK6" class="btn has-before">
+              <span class="span">Join US</span>
+            </a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #Portfolios
+      -->
+
+      <section class="service" id="portfolio" aria-labelledby="service-label">
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <div>
+              <p class="section-subtitle">
+                Portfolios that we have
+              </p>
+
+              <h2 class="h2 section-title" id="service-label">Portfolios</h2>
+            </div>
+
+            <p class="section-text">
+              Club Optimus offers diverse portfolios for every robotics dream: build robots with the Hardware team, 
+              code their brains with Software, design and market them with Marketing & Design, 
+              or amplify the club's voice through Social Media. Find your niche and build the future together!
+            </p>
+
+          </div>
+
+          <div class="slider" data-slider>
+
+            <ul class="slider-container service-list" data-slider-container>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="desktop-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Technical</h3>
+
+                  <p class="card-text">
+                    We code, solder, and 3D print, building robots that push boundaries.
+                  </p>
+
+                  <span class="text-lg card-number">01</span>
+
+                  <a href="#" class="layer-link" aria-label="More about Technical"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="podium-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">H.R</h3>
+
+                  <p class="card-text">
+                    Onboards new members and keeps the club running smoothly.
+                  </p>
+
+                  <span class="text-lg card-number">02</span>
+
+                  <a href="#" class="layer-link" aria-label="More about Operations"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="basket-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Events</h3>
+
+                  <p class="card-text">
+                    Event wizards! Club Optimus' event crew plans workshops, showcases robots, and keeps the innovation rolling.
+                  </p>
+
+                  <span class="text-lg card-number">03</span>
+
+                  <a href="#" class="layer-link" aria-label="More about events team"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="color-filter-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Design</h3>
+
+                  <p class="card-text">
+                    Club Optimus designers craft the future! They sketch and sculpt the perfect postures for our events.
+                  </p>
+
+                  <span class="text-lg card-number">04</span>
+
+                  <a href="#" class="layer-link" aria-label="More about design"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="megaphone-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Marketing</h3>
+
+                  <p class="card-text">
+                    Club Optimus' marketing wizards promote workshops & events, spreading the robotics revolution!
+                  </p>
+
+                  <span class="text-lg card-number">05</span>
+
+                  <a href="#" class="layer-link" aria-label="More about Marketing "></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="chatbubbles-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Social Media</h3>
+
+                  <p class="card-text">
+                    Club Optimus' social crew keeps the buzz going! They manage our accounts, 
+                    posting robot updates and event details to keep you connected.
+                  </p>
+
+                  <span class="text-lg card-number">06</span>
+
+                  <a href="#" class="layer-link" aria-label="More about Social Media "></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="podium-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Documentation</h3>
+
+                  <p class="card-text">
+                    Club Optimus' Doc Squad crafts captions & keeps records humming, 
+                    ensuring our story's always on point!
+                  </p>
+
+                  <span class="text-lg card-number">07</span>
+
+                  <a href="#" class="layer-link" aria-label="More about Documentation "></a>
+
+                </div>
+              </li>
+
+            </ul>
+
+            <div class="slider-controls">
+              <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+
+              <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #Events
+      -->
+
+      <section class="portfolio" id="events" aria-labelledby="portfolio-label">
+
+        <div class="title-wrapper container">
+
+          <div>
+            <p class="section-subtitle" id="portfolio-label">Our Works</p>
+
+            <h2 class="h2 section-title">Events</h2>
+          </div>
+
+          <p class="section-text">
+            Club Optimus energizes its members with workshops and events! These sessions go beyond the textbook, 
+            offering hands-on learning and collaboration. Whether it's building a mini-bot or attending guest speaker workshops, 
+            you'll gain practical skills and valuable insights from industry experts. It's learning by doing, together!
+          </p>
+
+        </div>
+
+        <div class="slider" data-slider>
+
+          <ul class="slider-container" data-slider-container>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assetsE/image/e1.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">ABC'S of robotics</h3>
+
+                  <p class="card-text">Thought basics of robotics</p>
+                </div>
+
+                <a href="#" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assetsE/image/e2.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Web Showdown</h3>
+
+                  <p class="card-text">Hosted different web challenges</p>
+                </div>
+
+                <a href="#" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assetsE/image/e3.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Recruiting</h3>
+
+                  <p class="card-text">Recruitiong new members</p>
+                </div>
+
+                <a href="#" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assetsE/image/2.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Soccer Bot</h3>
+
+                  <p class="card-text">Parcipitated in Soccer bot compitision</p>
+                </div>
+
+                <a href="#" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assetsE/image/1.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">SNIST Bots</h3>
+
+                  <p class="card-text">Various bots parcipitated in snist event</p>
+                </div>
+
+                <a href="#" class="layer-link"></a>
+
+              </div>
+            </li>
+          </ul>
+
+          <div class="slider-controls">
+            <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+
+            <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+          </div><br>
+          <a href="events.html" class="btn has-before center-button">  <span class="span">View All</span>
+            <ion-icon name="arrow-forward"></ion-icon>
+          </a><br>
+        </div>
+
+      </section>
+
+
+                        <!--============
+                          Team-section
+                    ==============-->
+
+
+        <section id="team">
+          <div class="team-heading">
+              <h3>The Team</h3>
+          </div>
+          <!--**slider*****************-->
+          <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                  
+  
+                  <!--==2==================-->
+                  <div class="swiper-slide">
+                      <!--slider-box-->
+                      <div class="team-slider-box">
+                      <!--==Img==================-->
+                      <div class="t-s-img">
+                          <img alt="team" src="assets3/img/001.jpg"/>
+                      </div>
+                      <!--==Text=================-->
+                      <div class="t-s-text">
+                          <strong>Governing Body</strong>
+                          <span></span>
+                          <div class="team-social">
+                              <a href="team.html">Read More</a>
+                          </div>
+                      </div>
+                      </div>
+                  </div>
+  
+  
+                  <!--==3==================-->
+                  <div class="swiper-slide">
+                      <!--slider-box-->
+                      <div class="team-slider-box">
+                      <!--==Img==================-->
+                      <div class="t-s-img">
+                          <img alt="team" src="assets3/img/003.jpg"/>
+                      </div>
+                      <!--==Text=================-->
+                      <div class="t-s-text">
+                          <strong>Executive</strong>
+                          <span></span>
+                          <div class="team-social">
+                              <a href="team.html">Read More</a>
+                          </div>
+                      </div>
+                      </div>
+                  </div>
+  
+  
+                  <!--==4==================-->
+                  <div class="swiper-slide">
+                      <!--slider-box-->
+                      <div class="team-slider-box">
+                      <!--==Img==================-->
+                      <div class="t-s-img">
+                          <img alt="team" src="assets3/img/004.jpg"/>
+                      </div>
+                      <!--==Text=================-->
+                      <div class="t-s-text">
+                          <strong>Core Memebers</strong>
+                          <span></span>
+                          <div class="team-social">
+                              <a href="team.html">Read More</a>
+                          </div>
+                      </div>
+                      </div>
+                  </div>
+  
+                
+              </div>
+              <a href="team.html" class="btn has-before center-button">  <span class="span">View All</span>
+                <ion-icon name="arrow-forward"></ion-icon>
+              </a>
+          </div>
+          
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" aria-labelledby="blog-label">
+        <div class="container">
+
+          <p class="section-subtitle" id="blog-label">Recent Articles</p>
+
+          <h2 class="h2 section-title">Latest News</h2>
+
+          <ul class="blog-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 700; --height: 430;">
+                  <img src="./assets/images/blog-1.png" width="700" height="470" loading="lazy"
+                    alt="Get Started With Tiktok Ads." class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <time class="time" datetime="2022-06-24">
+                    <span class="span text-lg">21</span>
+                    january 2024
+                  </time>
+
+                  <div>
+                    <h3 class="h3 card-title">OPTIMUS Soars to the Top at HackEnvision 2.0!</h3>
+
+                    <p class="card-text">
+                      Thrilling news for OPTIMUS! Our very own Team Memebers has aced HackEnvision 2.0 at NSAKCET, 
+                      bagging the coveted first place and Best Innovative Idea prize. This impressive feat is a testament to their exceptional talent and hard work. 
+                      Congratulations to them and the entire OPTIMUS team for this well-deserved win!
+                    </p>
+
+                    <a href="#" class="btn has-before">
+                      <span class="span">Read more</span>
+
+                      <ion-icon name="arrow-forward"></ion-icon>
+                    </a>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+<!--             <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 700; --height: 470;">
+                  <img src="./assets/images/blog-2.jpg" width="700" height="470" loading="lazy"
+                    alt="UX in Ecommerce – 5 things to avoid." class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <time class="time" datetime="2022-06-27">
+                    <span class="span text-lg">27</span>
+                    June 2022
+                  </time>
+
+                  <div>
+                    <h3 class="h3 card-title">UX in Ecommerce – 5 things to avoid.</h3>
+
+                    <p class="card-text">
+                      Phasellus et lacus suscipit congue nis in the miss mine one miss the drana risus in tincidunt
+                      ornare.
+                    </p>
+
+                    <a href="#" class="btn has-before">
+                      <span class="span">Read more</span>
+
+                      <ion-icon name="arrow-forward"></ion-icon>
+                    </a>
+                  </div>
+
+                </div>
+
+              </div>
+            </li> -->
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" id="contact">
+    <div class="container">
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Get in touch</p>
+        </li>
+
+        <li>
+          <a href="mailto:info@kwilliams.com" class="footer-link">ClubOptimus@gmail.com</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Locations</p>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">MJCET-BANJARA HILLS<br>Hyderabad-India</a>
+        </li>
+
+      </ul>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-dribbble"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-skype"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+      
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    
+        <!-- Initialize Swiper -->
+        <script>
+          var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+              rotate: 20,
+              stretch: -20,
+              depth: 120,
+              modifier: 3,
+              slideShadows: true,
+            },
+            pagination: {
+              el: ".swiper-pagination",
+            },
+          });
+        </script>
+    
+</body>
+
+</html>
